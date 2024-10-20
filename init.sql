@@ -1,0 +1,10 @@
+CREATE DATABASE WordDB;
+GO
+
+USE WordDB;
+GO
+
+CREATE TABLE Words (
+    Text NVARCHAR(20) PRIMARY KEY,
+    Count INT NOT NULL
+);
