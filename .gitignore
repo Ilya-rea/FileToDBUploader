@@ -1,3 +1,24 @@
-# Visual Studio 2022 for Mac .vs/ *.userprefs *.user *.suo # .NET Core / .NET 6+ bin/ obj/ project.lock.json project.fragment.lock.json # User-specific files *.sln.docstates # MacOS specific 
-.DS_Store # Build results [Dd]ebug/ [Rr]elease/ [Aa]ssets/ # Logs
+# Visual Studio 2022 for Mac 
+.vs/
+*.userprefs
+*.user
+*.suo
+
+# .NET Core / .NET 6+
+bin/
+obj/
+project.lock.json
+project.fragment.lock.json
+
+# User-specific files
+*.sln.docstates
+# MacOS specific 
+.DS_Store
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Aa]ssets/
+
+# Logs
 *.log
